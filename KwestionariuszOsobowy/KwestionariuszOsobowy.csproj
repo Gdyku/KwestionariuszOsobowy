@@ -6,6 +6,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\FormularzOsobowy.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\JanKowalski.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\koko.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\MałgosiaSamosia.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\oppo.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\PatrykGdy.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\Pyuosin.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\qwerty.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\PersonalQuestionnaires\wewe.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\Plugins\JsonPlugin.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Plugins\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\netcoreapp3.1\Plugins\XmlPlugin.deps.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\JsonPlugin.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\JsonPlugin.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\PersonModel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\PersonModel.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\SerializeInterface.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\SerializeInterface.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\XmlPlugin.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Plugins\XmlPlugin.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
   </ItemGroup>
@@ -13,12 +40,6 @@
   <ItemGroup>
     <ProjectReference Include="..\ISerializePlugin\SerializeInterface.csproj" />
     <ProjectReference Include="..\PersonModel\PersonModel.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="PersonalQuestionnaires\FormularzOsobowy.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
